@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock paper scissors</h1>
+    <div class="main-container">
+        <div class="choice" id="rock">
+            <div class="rotate">
+                <div class="innerrotate"></div>
+            </div>
+            <img src="rock.png" alt="">
+        </div>
+        <div class="choice" id="paper">
+            <div class="rotate">
+                <div class="innerrotate"></div>
+            </div>
+            <img src="paper.png" alt="">
+        </div>
+        <div class="choice" id="scissor">
+            <div class="rotate">
+                <div class="innerrotate"></div>
+            </div>
+            <img src="scissor.png" alt="">
+        </div>
+    </div>
+
+    <div class="score-board">
+        <div class="my-score">
+        <p id="me">0</p>
+        <p>Me</p>
+        </div>
+
+        <div class="comp-score">
+        <p id="comp">0</p>
+        <p>Computer</p>
+        </div>
+    </div>
+
+    <div class="msg-container">
+        <p id="msg">Play</p>
+    </div>
+    <script src="rps.js"></script>
+</body>
+</html>
